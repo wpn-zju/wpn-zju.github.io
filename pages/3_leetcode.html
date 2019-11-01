@@ -1,0 +1,123 @@
+---
+layout: default
+title: LeetCode
+description: LeetCode Notes
+header-img: "img/tag-bg.jpg"
+multilingual: false
+ispostpage: true
+---
+
+<!--
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
+<!-- Page Header -->
+{% include intro-header.html type='page' short=true %}
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- Tags (as filter) -->
+            <div id='tag_cloud' class="tags tags-sup js-tags">
+                {%- assign _total_number = 0 -%}
+                {%- for _article in site.posts -%}
+                    {%- for _category in _article.categories -%}
+                        {%- if _category == 'leetcode' -%}
+                            {%- assign _total_number = _total_number | plus: 1 -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                {%- endfor -%}
+
+                <a class="tag-button--all" 
+                    data-encode="{{ "Null" | prepend: "leetcode." | strip | url_encode }}">
+                    Show All
+                    <sup>{{ _total_number }}</sup>
+                </a>
+
+                {% capture tags %}
+                {% for tag in site.tags %}
+                    {%- assign _posts_with_tag_number = 0 -%}
+                    {%- for _article in site.posts -%}
+                        {%- for _category in _article.categories -%}
+                            {%- if _category == 'leetcode' -%}
+                                {%- for _tag in _article.tags -%}
+                                    {%- if _tag == tag[0] -%}
+                                        {%- assign _posts_with_tag_number = _posts_with_tag_number | plus: 1 -%}
+                                    {%- endif -%}
+                                {%- endfor -%}
+                            {%- endif -%}
+                        {%- endfor -%}
+                    {%- endfor -%}
+                    {%- if _posts_with_tag_number > 0 -%}
+                    <a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+                        data-encode="{{ tag[0] | prepend: "leetcode." | strip | url_encode }}"
+                        class="tag-button"
+                        title="{{ tag[0] }}" rel="{{ _posts_with_tag_number }}">
+                        {{ tag[0] }}
+                        <sup>{{ _posts_with_tag_number }}</sup>
+                    </a>
+                    {%- endif -%}
+                {% endfor %}
+                {% endcapture %}
+                {{ tags | split:'</a>' | sort | join:'</a>' }}
+            </div>
+
+            <!-- Article List -->
+            <div class="mini-post-list js-result d-none">
+                {%- assign _sorted_list = site.posts -%}
+                {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
+                {%- assign _sorted_list = _sorted_list | reverse -%}
+
+                {%- for _article in _sorted_list -%}
+                    {%- assign _tags = '' -%}
+                    {%- for _tag in _article.tags -%}
+                        {%- assign _tag_encode = _tag | strip | url_encode -%}
+                            {%- if forloop.last -%}
+                                {%- assign _tags = _tags | append: _tag_encode -%}
+                            {%- else -%}
+                                {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
+                            {%- endif -%}
+                    {%- endfor -%}
+                    
+                    {%- assign _categories = '' -%}
+                    {%- for _category in _article.categories -%}
+                        {%- assign _category_encode = _category | strip | url_encode -%}
+                            {%- if forloop.last -%}
+                                {%- assign _categories = _categories | append: _category_encode -%}
+                            {%- else -%}
+                                {%- assign _categories = _categories | append: _category_encode | append: ',' -%}
+                            {%- endif -%}
+                    {%- endfor -%}
+
+                    {% comment %} group by year {% endcomment %}
+                    {%- assign _currentdate = _article.date | date: '%Y' -%}
+                        {%- if _currentdate != _date -%}
+                             <!-- forloop用于循环判定 forloop.first 仅当循环第一次时返回true -->
+                            {%- unless forloop.first -%}
+                             </section>
+                            {%- endunless -%}
+                        <section>
+                    <span class="fa listing-seperator">
+                    <span class="tag-text">{{ _currentdate }}</span>
+                    </span>
+                    {%- assign _date = _currentdate -%}
+                {%- endif -%}
+
+                <div class="post-preview item" data-tags="{{ _tags }}" data-categories="{{ _categories }}">
+                    <a href="{{ _article.url | prepend: site.baseurl }}">
+                        <h2 class="post-title">
+                            {{ _article.title }}
+                        </h2>
+                        {% if _article.subtitle %}
+                            <h3 class="post-subtitle">
+                            {{ _article.subtitle }}
+                            </h3>
+                            {% endif %}
+                    </a>
+                    <hr>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
