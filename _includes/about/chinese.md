@@ -4,8 +4,11 @@
 
 ##### 联系
 
-- GitHub主页：[wpn-zju](https://github.com/wpn-zju)
-- 邮箱："zjuwpn@gmail.com"
+- Tel: +1 315-418-9060
+- GitHub: [wpn-zju](https://github.com/wpn-zju)
+- E-mail: "zjuwpn@gmail.com" or "peweng@syr.edu"
 
 ##### 链接
 
+- [Unity Game](https://github.com/wpn-zju/Unity-Project)
+- [Ocean Rendering Project](https://github.com/wpn-zju/Ocean-Renderer)

@@ -34,5 +34,5 @@
 
 ##### Links
 
-- Unity Project
-- Ocean Rendering Project
+- [Unity Game](https://github.com/wpn-zju/Unity-Project)
+- [Ocean Rendering Project](https://github.com/wpn-zju/Ocean-Renderer)
