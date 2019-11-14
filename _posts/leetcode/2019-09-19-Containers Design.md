@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Data Structures Design Problems"
+title: "LeetCode - Data Structures Design Problems - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

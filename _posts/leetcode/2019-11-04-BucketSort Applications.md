@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - BucketSort Application"
+title: "LeetCode - BucketSort Application - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

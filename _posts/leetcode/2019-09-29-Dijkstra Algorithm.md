@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Graph - Dijkstra Algorithm"
+title: "LeetCode - Graph - Dijkstra Algorithm - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

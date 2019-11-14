@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Water and Jug Problem"
+title: "LeetCode - Water and Jug Problem - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

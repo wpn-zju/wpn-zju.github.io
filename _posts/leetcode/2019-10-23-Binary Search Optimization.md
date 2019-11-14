@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Binary Search - Optimal Solution Model"
+title: "LeetCode - Binary Search - Optimal Solution Model - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

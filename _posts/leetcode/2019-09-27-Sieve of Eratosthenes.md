@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Sieve of Eratosthenes"
+title: "LeetCode - Sieve of Eratosthenes - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

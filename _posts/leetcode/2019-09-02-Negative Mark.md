@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Negative Mark in Array Model"
+title: "LeetCode - Negative Mark in Array Model - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

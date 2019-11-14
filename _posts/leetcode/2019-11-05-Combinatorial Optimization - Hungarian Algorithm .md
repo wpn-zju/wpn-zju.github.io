@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Combinatorial Optimization - Hungarian Algorithm"
+title: "Combinatorial Optimization - Hungarian Algorithm - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

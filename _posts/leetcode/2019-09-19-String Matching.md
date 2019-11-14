@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - String Matching"
+title: "LeetCode - String Matching - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

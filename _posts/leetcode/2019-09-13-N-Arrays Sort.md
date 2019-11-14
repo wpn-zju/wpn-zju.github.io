@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Optimization of N-Array Merging"
+title: "LeetCode - Optimization of N-Array Merging - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

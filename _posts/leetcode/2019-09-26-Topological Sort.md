@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Graph - Topological Sort"
+title: "LeetCode - Graph - Topological Sort - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

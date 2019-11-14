@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Random and Reservoir Sampling"
+title: "LeetCode - Random and Reservoir Sampling - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

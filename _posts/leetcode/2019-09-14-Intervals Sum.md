@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Interval Sum"
+title: "LeetCode - Interval Sum - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

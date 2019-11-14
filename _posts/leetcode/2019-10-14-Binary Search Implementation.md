@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Binary Search - Implementation"
+title: "LeetCode - Binary Search - Implementation - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

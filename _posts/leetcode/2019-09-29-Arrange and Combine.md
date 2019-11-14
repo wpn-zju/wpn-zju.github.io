@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Backtracking - Arrange and Combine Problem"
+title: "LeetCode - Backtracking - Arrange and Combine Problem - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

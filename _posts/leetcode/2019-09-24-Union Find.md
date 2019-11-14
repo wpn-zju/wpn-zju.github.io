@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Union Find"
+title: "LeetCode - Union Find - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

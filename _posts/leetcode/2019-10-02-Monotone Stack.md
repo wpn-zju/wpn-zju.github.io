@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Monotone Stack"
+title: "LeetCode - Monotone Stack - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

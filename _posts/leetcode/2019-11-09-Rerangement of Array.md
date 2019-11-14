@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Dynamic Programming - Rerangement of Array"
+title: "LeetCode - Dynamic Programming - Rerangement of Array - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

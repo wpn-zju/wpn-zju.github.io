@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Tree Traversaling with States"
+title: "LeetCode - Tree Traversaling with States - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

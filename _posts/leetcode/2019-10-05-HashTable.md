@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Hash Table"
+title: "LeetCode - Hash Table - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

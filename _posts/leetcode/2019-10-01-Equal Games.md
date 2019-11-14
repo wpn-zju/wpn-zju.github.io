@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Zero-sum Games"
+title: "LeetCode - Zero-sum Games - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

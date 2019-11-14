@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Dynamic Programming - Chain Matrix Multiply Model"
+title: "LeetCode - Dynamic Programming - Chain Matrix Multiply Model - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

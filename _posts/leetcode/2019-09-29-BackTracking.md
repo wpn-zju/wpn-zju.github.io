@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Backtracking"
+title: "LeetCode - Backtracking - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

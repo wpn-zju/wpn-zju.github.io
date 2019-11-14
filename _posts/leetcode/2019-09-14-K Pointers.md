@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - K Pointers"
+title: "LeetCode - K Pointers - N/A"
 subtitle:
 author: "Peinan"
 header-style: text

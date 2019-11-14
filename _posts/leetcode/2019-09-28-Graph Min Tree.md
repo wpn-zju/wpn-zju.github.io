@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode - Graph - Prim / Kruskal"
+title: "LeetCode - Graph - Prim / Kruskal - N/A"
 subtitle:
 author: "Peinan"
 header-style: text
