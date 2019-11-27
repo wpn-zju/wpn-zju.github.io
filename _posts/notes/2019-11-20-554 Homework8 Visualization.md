@@ -9,7 +9,7 @@ tags:
   - Unity
 ---
 
-Visualzation program  of homework 8, card game. Android available.
+Visualization program  of homework 8, card game. Android available.
 
 [Download Link](/res/apk/554.apk)
 
