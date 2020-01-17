@@ -9,6 +9,6 @@ tags:
   - Project
 ---
 
-[Click Here](https://github.com/wpn-zju/Ocean-Renderer)
+[Github](https://github.com/wpn-zju/Ocean-Renderer)
 
 ---
