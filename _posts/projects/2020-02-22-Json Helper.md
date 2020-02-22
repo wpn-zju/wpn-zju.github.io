@@ -19,4 +19,4 @@ To do list:
 3. Exception handling.
 4. Null type
 
-![Sample Picture](/res/video/jsonhelper.png)
+![Sample Picture](/res/image/jsonhelper.png)
