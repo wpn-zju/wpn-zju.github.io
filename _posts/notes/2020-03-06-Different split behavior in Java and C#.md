@@ -11,10 +11,10 @@ tags:
 
 In Java
 
-[Java](/res/image/javasplit.png)
+![Java](/res/image/javasplit.png)
 
 In C#
 
-[C#](/res/image/csharpsplit.png)
+![C#](/res/image/csharpsplit.png)
 
 ---
