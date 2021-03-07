@@ -9,12 +9,12 @@ tags:
   - Project
 ---
 
-[Github](https://github.com/wpn-zju/Json-Helper)
+A slight JSON object tool for C++, Java and C#.
 
-A slight JSON helper
+[Github Repo - C++](https://github.com/wpn-zju/Json-Helper)
 
-To do list:
-1. More numeric type support (float point, scientific notation, etc.).
-2. Exception handling.
+[Github Repo - Java](https://github.com/wpn-zju/Json-Helper-Java)
+
+[Github Repo - C#](https://github.com/wpn-zju/Json-Helper-Csharp)
 
 ![Sample Picture](/res/image/jsonhelper.png)
